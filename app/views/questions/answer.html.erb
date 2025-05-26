@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="div"><h1>Page Réponse</h1></div>
+<br>
+
+  <div class="question">
+    <p><%=@question%> <br>- You</p>
+  </div>
+
+  <div class="reponse">
+    <p> <%=@answer%> <br>- Ton coach</p>
+
+  </div>
+<button type="button" class="btn btn-secondary"><%= link_to "retour au formulaire", ask_path %></button>
+</div>
